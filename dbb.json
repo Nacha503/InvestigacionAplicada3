@@ -1,0 +1,453 @@
+{
+  "Equipos": [
+    {
+      "id": 2,
+      "Nombre": "Man. United",
+      "Ciudad": "Manchester",
+      "AñoFundacion": 1878,
+      "Entrenador": "Ole Gunnar Solskjær",
+      "Estadio": "Old Trafford",
+      "Ligasid": 1
+    },
+    {
+      "id": 3,
+      "Nombre": "Liverpool",
+      "Ciudad": "Liverpool",
+      "AñoFundacion": 1892,
+      "Entrenador": "Jurgen Klopp",
+      "Estadio": "Anfield",
+      "Ligasid": 1
+    },
+    {
+      "id": 4,
+      "Nombre": "Tottenham",
+      "Ciudad": "Londres",
+      "AñoFundacion": 1882,
+      "Entrenador": "José Mourinho",
+      "Estadio": "Wembley",
+      "Ligasid": 1
+    },
+    {
+      "id": 5,
+      "Nombre": "West Ham United",
+      "Ciudad": "Stratford",
+      "AñoFundacion": 1895,
+      "Entrenador": "David Moyes",
+      "Estadio": "Olímpico de Londres",
+      "Ligasid": 1
+    },
+    {
+      "id": 6,
+      "Nombre": "Wolves",
+      "Ciudad": "Wolverhampton",
+      "AñoFundacion": 1877,
+      "Entrenador": "Nuno Espírito",
+      "Estadio": "Molineux Stadium",
+      "Ligasid": 1
+    },
+    {
+      "id": 7,
+      "Nombre": "Manchester CIty",
+      "Ciudad": "Manchester",
+      "AñoFundacion": 1880,
+      "Entrenador": "Jhosep Guardiola",
+      "Estadio": "Etihad Stadium",
+      "Ligasid": 1
+    },
+    {
+      "id": 8,
+      "Nombre": "Everton FC.",
+      "Ciudad": "Everton",
+      "AñoFundacion": 1878,
+      "Entrenador": "Carlo Ancelotti",
+      "Estadio": "Goodison Park",
+      "Ligasid": 1
+    },
+    {
+      "id": 9,
+      "Nombre": "Arsenal FC.",
+      "Ciudad": "Londres",
+      "AñoFundacion": 1886,
+      "Entrenador": "Mikel Arteta",
+      "Estadio": "Emirates Stadium",
+      "Ligasid": 1
+    },
+    {
+      "id": 10,
+      "Nombre": "Aston Villa FC.",
+      "Ciudad": "Aston",
+      "AñoFundacion": 1874,
+      "Entrenador": "Dea Smith",
+      "Estadio": "Villa Park",
+      "Ligasid": 1
+    },
+    {
+      "id": 11,
+      "Nombre": "Southampton FC",
+      "Ciudad": "Southampton",
+      "AñoFundacion": 1885,
+      "Entrenador": "Ralph Hasenhüttl",
+      "Estadio": "St Mary's Stadium",
+      "Ligasid": 1
+    },
+    {
+      "id": 12,
+      "Nombre": "Newcastle United FC.",
+      "Ciudad": "Newcastle",
+      "AñoFundacion": 1892,
+      "Entrenador": "Mikey Ashley",
+      "Estadio": "St Mary's Stadium",
+      "Ligasid": 1
+    },
+    {
+      "id": 13,
+      "Nombre": "Leeds United FC.",
+      "Ciudad": "Leeds",
+      "AñoFundacion": 1919,
+      "Entrenador": "Marcelo Bielsa",
+      "Estadio": "Elland Road",
+      "Ligasid": 1
+    },
+    {
+      "id": 14,
+      "Nombre": "Fulham FC.",
+      "Ciudad": "Fulham",
+      "AñoFundacion": 1879,
+      "Entrenador": "Scott Parker",
+      "Estadio": "Craven Cottage",
+      "Ligasid": 1
+    },
+    {
+      "id": 15,
+      "Nombre": "Brighton & Hove Albion FC.",
+      "Ciudad": "Brighton & Hove",
+      "AñoFundacion": 1888,
+      "Entrenador": "Graham Potter",
+      "Estadio": "Falmer Stadium",
+      "Ligasid": 1
+    },
+    {
+      "id": 16,
+      "Nombre": "West Bromwich Albion FC.",
+      "Ciudad": "West Bromwich",
+      "AñoFundacion": 1876,
+      "Entrenador": "Slaven Bilić",
+      "Estadio": "The Hawthorns",
+      "Ligasid": 1
+    },
+    {
+      "id": 17,
+      "Nombre": "Burnley FC.",
+      "Ciudad": "Burnley",
+      "AñoFundacion": 1876,
+      "Entrenador": "Sean Dyche",
+      "Estadio": "Turf Moor",
+      "Ligasid": 1
+    },
+    {
+      "id": 18,
+      "Nombre": "Sheffield United FC.",
+      "Ciudad": "Burnley",
+      "AñoFundacion": 1889,
+      "Entrenador": "Chris Wilder",
+      "Estadio": "Bramall Lane",
+      "Ligasid": 1
+    },
+    {
+      "id": 19,
+      "Nombre": "Borussia Dortmund",
+      "Ciudad": "Dortmund",
+      "AñoFundacion": 1909,
+      "Entrenador": "Lucien Favre",
+      "Estadio": "Signal iduna Park",
+      "Ligasid": 2
+    },
+    {
+      "id": 20,
+      "Nombre": "Bayern Munich",
+      "Ciudad": "Munich",
+      "AñoFundacion": 1900,
+      "Entrenador": "Hans-Dieter Flick",
+      "Estadio": "Allianz Arena",
+      "Ligasid": 2
+    },
+    {
+      "id": 21,
+      "Nombre": "Shalke 04",
+      "Ciudad": "Renania",
+      "AñoFundacion": 1904,
+      "Entrenador": "Manuel Baum",
+      "Estadio": "Veltins Arena",
+      "Ligasid": 2
+    },
+    {
+      "id": 22,
+      "Nombre": "RB Leipzig",
+      "Ciudad": "Leipzig",
+      "AñoFundacion": 2004,
+      "Entrenador": "Julian Nagelsmann",
+      "Estadio": "Red Bull Arena",
+      "Ligasid": 2
+    },
+    {
+      "id": 23,
+      "Nombre": "VFL Wolfsburgo",
+      "Ciudad": "Wolfsburgo",
+      "AñoFundacion": 1945,
+      "Entrenador": "Oliver Glasner",
+      "Estadio": "Wolkswagen Arena",
+      "Ligasid": 2
+    },
+    {
+      "id": 24,
+      "Nombre": "Bayer 04 Leverkusen",
+      "Ciudad": "Leverkusen",
+      "AñoFundacion": 1904,
+      "Entrenador": "Peter Bosz",
+      "Estadio": "BayArena",
+      "Ligasid": 2
+    },
+    {
+      "id": 25,
+      "Nombre": "Werder Bremen SC.",
+      "Ciudad": "Bremen",
+      "AñoFundacion": 1899,
+      "Entrenador": "Florian Kohfeldt",
+      "Estadio": "BayArena",
+      "Ligasid": 2
+    },
+    {
+      "id": 26,
+      "Nombre": "Friburgo SC.",
+      "Ciudad": "Friburgo",
+      "AñoFundacion": 1906,
+      "Entrenador": "Christian Streich",
+      "Estadio": "Mage Solar Stadion",
+      "Ligasid": 2
+    },
+    {
+      "id": 27,
+      "Nombre": "Arminia SC.",
+      "Ciudad": "Bielefeld",
+      "AñoFundacion": 1905,
+      "Entrenador": "Uwe Neuhaus",
+      "Estadio": "SchücoArena",
+      "Ligasid": 2
+    },
+    {
+      "id": 28,
+      "Nombre": "FC. Colonia",
+      "Ciudad": "Köln",
+      "AñoFundacion": 1948,
+      "Entrenador": "Markus Gisdol",
+      "Estadio": "Estadio Rhein Energie",
+      "Ligasid": 2
+    },
+    {
+      "id": 29,
+      "Nombre": "VFB Stuttgart",
+      "Ciudad": "Stuttgart",
+      "AñoFundacion": 1893,
+      "Entrenador": "Thomas Hitzlsperger",
+      "Estadio": "Mercedes-Benz Arena",
+      "Ligasid": 2
+    },
+    {
+      "id": 30,
+      "Nombre": "FC. Ausburgo",
+      "Ciudad": "Ausburgo",
+      "AñoFundacion": 1907,
+      "Entrenador": "Heiko Herrlich",
+      "Estadio": "SGL Arena",
+      "Ligasid": 2
+    },
+    {
+      "id": 31,
+      "Nombre": "Hertha Berliner Sport Club",
+      "Ciudad": "Berlín",
+      "AñoFundacion": 1882,
+      "Entrenador": "Bruno Labbadia",
+      "Estadio": "Estadio Olímpico de Berlín",
+      "Ligasid": 2
+    },
+    {
+      "id": 32,
+      "Nombre": "Eintracht Frankfurt",
+      "Ciudad": "Frankfurt",
+      "AñoFundacion": 1899,
+      "Entrenador": "Adolf Hütter",
+      "Estadio": "Commerzbank-Arena",
+      "Ligasid": 2
+    },
+    {
+      "id": 33,
+      "Nombre": "Real Madrid FC.",
+      "Ciudad": "Madrid",
+      "AñoFundacion": 1902,
+      "Entrenador": "Zinedine Zidane",
+      "Estadio": "Santiago Bernabéu",
+      "Ligasid": 3
+    },
+    {
+      "id": 34,
+      "Nombre": "Real Betis FC.",
+      "Ciudad": "Sevilla",
+      "AñoFundacion": 1907,
+      "Entrenador": "Manuel Pellegrini",
+      "Estadio": "Benito Villamarín",
+      "Ligasid": 3
+    },
+    {
+      "id": 35,
+      "Nombre": "Valencia FC.",
+      "Ciudad": "Valencia",
+      "AñoFundacion": 1919,
+      "Entrenador": "Javi Gracia",
+      "Estadio": "Mestalla",
+      "Ligasid": 3
+    },
+    {
+      "id": 36,
+      "Nombre": "Atlético de Madrid",
+      "Ciudad": "Madrid",
+      "AñoFundacion": 1903,
+      "Entrenador": "Diego Simeone",
+      "Estadio": "Wanda Metropolitano",
+      "Ligasid": 3
+    },
+    {
+      "id": 37,
+      "Nombre": "FC Barcelona",
+      "Ciudad": "Barcelona",
+      "AñoFundacion": 1903,
+      "Entrenador": "Hans Gamper",
+      "Estadio": "Camp Nou",
+      "Ligasid": 3
+    },
+    {
+      "id": 38,
+      "Nombre": "Cádiz CF",
+      "Ciudad": "Cádiz",
+      "AñoFundacion": 1910,
+      "Entrenador": "Álvaro Cervera",
+      "Estadio": "Ramón de Carranza",
+      "Ligasid": 3
+    },
+    {
+      "id": 39,
+      "Nombre": "Sevilla CF",
+      "Ciudad": "Sevilla",
+      "AñoFundacion": 1890,
+      "Entrenador": "Julen Lopetegui",
+      "Estadio": "Ramón Sánchez Pizjuán",
+      "Ligasid": 3
+    },
+    {
+      "id": 40,
+      "Nombre": "RC. Celta de Vigo",
+      "Ciudad": "Vigo",
+      "AñoFundacion": 1823,
+      "Entrenador": "Óscar García Junyent",
+      "Estadio": "Estadio de Balaídos",
+      "Ligasid": 3
+    },
+    {
+      "id": 41,
+      "Nombre": "CA. Osasuna",
+      "Ciudad": "Pamplona",
+      "AñoFundacion": 1920,
+      "Entrenador": "Jagoba Arrasate",
+      "Estadio": "Estadio El Sadar",
+      "Ligasid": 3
+    },
+    {
+      "id": 42,
+      "Nombre": "Athletic de Bilbao",
+      "Ciudad": "Bilbao",
+      "AñoFundacion": 1898,
+      "Entrenador": "Gaizka Garitano",
+      "Estadio": "San Mamés",
+      "Ligasid": 3
+    },
+    {
+      "id": 43,
+      "Nombre": "RC. Valladolid",
+      "Ciudad": "Valladolid",
+      "AñoFundacion": 1906,
+      "Entrenador": "Sergio González Soriano",
+      "Estadio": "José Zorrillas",
+      "Ligasid": 3
+    },
+    {
+      "id": 44,
+      "Nombre": "CF. Villareal",
+      "Ciudad": "Villareal",
+      "AñoFundacion": 1923,
+      "Entrenador": "Unai Emery",
+      "Estadio": "Estadio de la Cerámica",
+      "Ligasid": 3
+    },
+    {
+      "id": 45,
+      "Nombre": "SD. Huesca",
+      "Ciudad": "Aragón",
+      "AñoFundacion": 1960,
+      "Entrenador": "Francisco Rodríguez Vílchez",
+      "Estadio": "El Alcoraz",
+      "Ligasid": 3
+    },
+    {
+      "id": 46,
+      "Nombre": "UD. Levante",
+      "Ciudad": "Valencia",
+      "AñoFundacion": 1909,
+      "Entrenador": "Paco López",
+      "Estadio": "Ciudad de Valencia",
+      "Ligasid": 3
+    },
+    {
+      "id": 47,
+      "Nombre": "UD. Levante",
+      "Ciudad": "Valencia",
+      "AñoFundacion": 1909,
+      "Entrenador": "Paco López",
+      "Estadio": "Ciudad de Valencia",
+      "Ligasid": 3
+    },
+    {
+      "id": 48,
+      "Nombre": "CF. Granada",
+      "Ciudad": "Granada",
+      "AñoFundacion": 1931,
+      "Entrenador": "Diego Martínez Penas",
+      "Estadio": "Nuevo Estadio de Los Cármenes",
+      "Ligasid": 3
+    },
+    {
+      "Nombre": "Anibal",
+      "Ciudad": "San Salvador",
+      "AñoFundacion": 2020,
+      "Entrenador": "Leonardo Lampard",
+      "Estadio": "Donatelo Bridge",
+      "LigasId": 1,
+      "id": 49
+    }
+  ],
+  "Ligas": [
+    {
+      "id": "1",
+      "Nombre": "Premier League",
+      "País": "Inglaterra"
+    },
+    {
+      "id": "2",
+      "Nombre": "Bundesliga",
+      "País": "Alemania"
+    },
+    {
+      "id": "3",
+      "Nombre": "La Liga",
+      "País": "España"
+    }
+  ]
+}
