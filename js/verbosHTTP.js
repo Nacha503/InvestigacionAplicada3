@@ -3,46 +3,60 @@ let btnGet = document.querySelector('#btnGet');
 
 btnGet.addEventListener('click', function () {
 
-    let parent = document.querySelector('#parent_avatars');
-
-    parent.innerHTML = "";
-
-    const arrayDatos = fetch('http://localhost:3000/Equipos')
-        .then(response => response.json());
 
 
-    arrayDatos.then(datos => {
 
-        let tarjeta = "";
 
-        for (let index = 0; index < datos.length; index++) {
+    fetch('http://localhost:3000/Equipos')
+        .then(res => res.ok ? Promise.resolve(res) : Promisse.reject(res))
+        .then(res => res.json())
+        .then(res => {
 
-            tarjeta += '<div class="col-sm-4">';
-            tarjeta += '<div class="card">';
-            tarjeta += '<div class="card-delete" data-card="' + index + '">' + datos[index].id + '</div>';
-            tarjeta += '<h3 class="card-title">' + datos[index].Nombre + '</h3>';
-            tarjeta += '<p class="card-text">';
-            tarjeta += '<strong>Ciudad : <span>' + datos[index].Ciudad + '</span> </strong>';
-            tarjeta += '</p>';
-            tarjeta += '<p class="card-text">';
-            tarjeta += '<strong>Año Fundacion: <span>' + datos[index].AñoFundacion + '</span> </strong>';
-            tarjeta += '</p>';
-            tarjeta += '<p class="card-text">';
-            tarjeta += '<strong>Entrenador <span>' + datos[index].Entrenador + '</span> </strong>';
-            tarjeta += '</p>';
-            tarjeta += '<p class="card-text">';
-            tarjeta += '<strong>Estadio: <span>' + datos[index].Estadio + '</span> </strong>';
-            tarjeta += '</p>';
-            tarjeta += '</div> ';
-            tarjeta += '</div>';
-            tarjeta += '</div>';
+            console.log(res.length);
+            let parent = document.querySelector('#parent_avatars');
+            parent.innerHTML = "";
 
-            parent.insertAdjacentHTML("afterbegin", tarjeta);
+            for (let index = res.length; index > 0; index--) {
 
-        }
-    });
+
+
+                let tarjeta = "";
+
+
+
+                tarjeta += '<div class="col-sm-4">';
+                tarjeta += '<div class="card">';
+                tarjeta += '<div class="card-delete" res[index]-card="' + index + '">' + res[index-1].id + '</div>';
+                tarjeta += '<h3 class="card-title">' + res[index-1].Nombre + '</h3>';
+                tarjeta += '<p class="card-text">';
+                tarjeta += '<strong>Ciudad : <span>' + res[index-1].Ciudad + '</span> </strong>';
+                tarjeta += '</p>';
+                tarjeta += '<p class="card-text">';
+                tarjeta += '<strong>Año Fundacion: <span>' + res[index-1].AñoFundacion + '</span> </strong>';
+                tarjeta += '</p>';
+                tarjeta += '<p class="card-text">';
+                tarjeta += '<strong>Entrenador <span>' + res[index-1].Entrenador + '</span> </strong>';
+                tarjeta += '</p>';
+                tarjeta += '<p class="card-text">';
+                tarjeta += '<strong>Estadio: <span>' + res[index-1].Estadio + '</span> </strong>';
+                tarjeta += '</p>';
+                tarjeta += '</div> ';
+                tarjeta += '</div>';
+                tarjeta += '</div>';
+
+
+                parent.insertAdjacentHTML("afterbegin", tarjeta);
+
+            }
+
+        });
+
+
+
 
 });
+
+
 
 // POST
 

@@ -1,13 +1,13 @@
 {
   "Equipos": [
     {
-      "id": 2,
-      "Nombre": "Man. United",
-      "Ciudad": "Manchester",
-      "AñoFundacion": 1878,
-      "Entrenador": "Ole Gunnar Solskjær",
-      "Estadio": "Old Trafford",
-      "Ligasid": 1
+      "Nombre": "United Man.",
+      "Ciudad": "Chester",
+      "AñoFundacion": 2500,
+      "Entrenador": "7891",
+      "Estadio": "Ole",
+      "Ligasid": 2,
+      "id": 2
     },
     {
       "id": 3,
@@ -431,6 +431,15 @@
       "Estadio": "Donatelo Bridge",
       "LigasId": 1,
       "id": 49
+    },
+    {
+      "Nombre": "Los Manguitos",
+      "Ciudad": "Soyapango",
+      "AñoFundacion": 2020,
+      "Entrenador": "Don Gato",
+      "Estadio": "Magico",
+      "LigasId": 2,
+      "id": 50
     }
   ],
   "Ligas": [
